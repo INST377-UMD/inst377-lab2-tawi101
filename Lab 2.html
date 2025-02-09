@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Page</title>
+    <style>
+        body {
+            background-color: lightgray; /* Change background color */
+            font-family: Arial, sans-serif;
+        }
+
+        .input-container {
+            margin: 10px 0; /* Add margin */
+        }
+
+        label {
+            font-size: 18px; /* Increase label font size */
+            font-weight: bold;
+            display: block; /* Makes label appear above the input */
+        }
+
+        .submit-btn {
+            background-color: blue; /* Change button color */
+            color: white;
+            padding: 10px;
+            border: none;
+            cursor: pointer;
+            margin-top: 10px; /* Add margin */
+        }
+
+        .submit-btn:hover {
+            background-color: darkblue; /* Change color on hover */
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Name Form</h2>
+    <form action="page2.html" method="get">
+        <div class="input-container">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+        </div>
+        
+        <input type="submit" class="submit-btn" value="Submit">
+    </form>
+
+</body>
+</html>
